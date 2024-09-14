@@ -1,0 +1,54 @@
+1. What is the purpose of a constructor in a C++ class?
+
+Constructors are methods that are automatically executed every time you create an object. The purpose of a constructor is to construct an object and assign values to the object's members and prepare to use.
+
+
+2. What is inheritance in C++ and what are its types?
+
+ Inheritance is a feature in which one new class is derived from the existing ones. and child class access parent class property and method which depent upon access specifier and modifier.
+inheritance types:
+single inheritance, Multilevel inheritance,Multiple inheritance, hybrid inheritance , hierarchical inheritance
+
+3. What is polymorphism in C++ and how can it be achieved?
+
+Polymorphism in C++ allows us to reuse code by creating one function that's usable for multiple uses. 
+It can be achieved in a two ways, including: 
+Compile-time polymorphism : This is achieved by overloading functions or operators.
+
+Run-time polymorphism : Also known as dynamic polymorphism, this is achieved through inheritance and virtual functions.
+
+
+4.What is a virtual function in C++, and how does it contribute to polymorphism?
+
+In C++, a virtual function is a member function in a base class that you can override in a derived class to achieve runtime polymorphism. By declaring a function as virtual, you ensure that the function call will be dynamically resolved based on the actual object's type, not the pointer or reference type used to call the function.
+
+
+
+
+5. Explain the concept of data hiding in C++ and how it is implemented.
+
+Data hiding in C++ refers to the principle of restricting access to certain details of an object or class, preventing external code from directly accessing or modifying them. 
+Data hiding is primarily achieved using access specifiers in C++. These keywords control the visibility of class members (both data and functions) to external code.
+
+private : this keyword define in which(parent) class then child class not access parent class property and method 
+
+public:this keyword define in which(parent) class then child class  access all parent class property and method
+
+protected:this keyword define in which(parent) class then child class  access some parent class property and method which depend upon access modifier in child class.
+
+
+6. What is a friend function in C++, and when would you use it?
+A friend function in C++ is a function that is not a member of a class but has permission to access the private and protected members of that class
+
+A friend function is often used when an external function needs access to the internal state of a class but should not be a member of that class.
+
+
+
+
+
+
+
+
+
+
+
